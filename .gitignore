@@ -3,3 +3,4 @@
 /logs
 .env
 .docker-sync
+testfile.txt
