@@ -17,7 +17,7 @@ array_map(
 
                 array_map(static function ($item) use ($bulk) {
                     $bulk->insert($item);
-                }, json_decode(file_get_contents(__DIR__ . "/{$file}.json"), true, 5, JSON_THROW_ON_ERROR)->{$file});
+                }, json_decode(file_get_contents(__DIR__ . "/{$file}.json"), true, 512, JSON_THROW_ON_ERROR)[$file]);
 
                 return $manager->executeBulkWrite("aoe2.{$file}", $bulk);
             },
