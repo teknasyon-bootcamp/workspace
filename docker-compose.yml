@@ -104,6 +104,21 @@ services:
     networks:
       - backend
 
+  mongo-webui:
+    image: mongoclient/mongoclient
+    environment:
+      - ROOT_URL=${MONGO_WEBUI_ROOT_URL}
+      - MONGO_URL=${MONGO_WEBUI_MONGO_URL}
+    volumes:
+      - ${DATA_PATH}/mongo-webui:/data/db
+    ports:
+      - "${MONGO_WEBUI_PORT}:3000"
+    networks:
+      - backend
+      - frontend
+    depends_on:
+      - mongo
+
   phpmyadmin:
     build: ./docker/phpmyadmin
     environment:
