@@ -1,0 +1,16 @@
+<?php
+
+// Fonksiyonlar
+
+//function isim($x, $y = 2, $z = "", ...$argumanlar) use ($pi)
+//{
+//  // fonksiyon çağrıldığında çalıştırılacak olan kodlar
+//}
+
+function topla ($x, $y) {
+  echo "Toplam: " . ($x + $y) . "<br>";
+}
+$sayi = 5;
+topla($sayi);
+topla(1, 2);
+topla(10, 100);

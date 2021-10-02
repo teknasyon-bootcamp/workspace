@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages xmlns:messageitem="SCHEMA URI">
+  <message style="notice">
+    <from>Eray</from>
+    <to>Mücahit</to>
+    <content>
+      <messageitem:p>asdasdasd</messageitem:p>
+      <messageitem:p>asdasdas</messageitem:p>
+    </content>
+    <time>2021-09-05 13:59:20</time>
+  </message>
+  <news>
+    <content xmlns:html="https://www.w3.org/TR/html401">
+      <p>Bu HTML içerisindeki paragraf etiketi</p>
+      <article>Bu HTML içerisindeki article etiketi</article>
+    </content>
+  </news>
+</messages>

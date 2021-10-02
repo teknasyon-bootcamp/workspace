@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<users>
+  <user>
+  <from>Eray</from>
+  <to>Mücahit</to>
+  <content>Merhaba!</content>
+  <time>2021-09-05 14:51:00</time>
+</user>
+<user>
+  <from>Mücahit</from>
+  <to>Eray</to>
+  <content>Selam!</content>
+  <time>2021-09-05 14:51:00</time>
+</user>
+<user>
+  <from>eray</from>
+  <to>mücahit</to>
+  <content>nasılsın?</content>
+  <time>2021-09-05 14:51:00</time>
+</user>
+<user>
+  <from>Mücahit</from>
+  <to>Eray</to>
+  <content>iyilik :)</content>
+  <time>2021-09-05 14:51:00</time>
+</user>
+
+</users>  
+
